@@ -7,10 +7,10 @@ class Main {
        int k = 3; 
         int a[] = { 2, 6, 3, 12, 56, 8 }; 
    
-       largest(a,k); 
+       sortKarray(a,k); 
 
   }
-  public static void largest(int a[],int k)
+  public static void sortKarray(int a[],int k)
   {
     PriorityQueue<Integer> p = new PriorityQueue<Integer>();
     ArrayList<Integer> list = new ArrayList<>();
